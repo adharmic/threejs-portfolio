@@ -13,11 +13,19 @@ const Hero = () => {
 
         <div>
           <h1 className={`${style.heroHeadText}`}>Hello, I'm <span className='text-[#915eff]'>Adithya.</span></h1>
-          <p className={`${style.heroSubText} mt-2 text-white-100`}>I am a full-stack web developer <br className='sm:block hidden'/>with experience in cyber security and <br className='sm:block hidden'/> a part-time game developer with a focus on Unity.</p>
+          <p className={`${style.heroSubText} mt-2 text-white-100`}>Full-stack engineering. <br className='sm:block hidden'/>Cybersecurity background. <br className='sm:block hidden'/> Part-time game development.</p>
         </div>
 
       </div>
       <ComputersCanvas />
+
+      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <a href="#about">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
+            <motion.div animate={{y: [0, 24, 0]}} transition ={{duration: 1.5, repeat: Infinity, repeatType: 'loop'}} className='w-3 h-3 rounded-full bg-secondary mb-1'/>
+          </div>
+        </a>
+      </div>
     </section>
   )
 }
