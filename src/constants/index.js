@@ -8,53 +8,57 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    unity,
+    csharp,
+    java,
+    python,
+    comcast,
+    prohashing,
+    sbu,
     carrent,
     jobit,
     tripguide,
     threejs,
+    resume
   } from "../assets";
   
   export const navLinks = [
     {
-      id: "about",
+      id: "#about",
       title: "About",
     },
     {
-      id: "work",
+      id: "#work",
       title: "Work",
     },
     {
-      id: "contact",
+      id: "#contact",
       title: "Contact",
     },
+    {
+      id: resume,
+      title: "CV"
+    }
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Cybersecurity Engineer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Game Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Scripting Experience",
       icon: creator,
     },
   ];
@@ -77,12 +81,12 @@ import {
       icon: typescript,
     },
     {
-      name: "React JS",
-      icon: reactjs,
+      name: "java",
+      icon: java,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "React JS",
+      icon: reactjs,
     },
     {
       name: "Tailwind CSS",
@@ -93,8 +97,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "python",
+      icon: python,
     },
     {
       name: "Three JS",
@@ -105,35 +109,22 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "unity",
+      icon: unity,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "c#",
+      icon: csharp,
     },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "BSE, Computer Science",
+      company_name: "Stony Brook University",
+      icon: sbu,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "August 2018 - May 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +133,11 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Backend Engineer",
+      company_name: "Prohashing",
+      icon: prohashing,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "January 2022 - December 2022",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -167,33 +145,19 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-  ];
-  
-  const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
+      title: "Full Stack Developer/Secure Coding Engineer",
+      company_name: "Comcast",
+      icon: comcast,
+      iconBg: "#383E56",
+      date: "January 2023 - Current",
+      points: [
+        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    }
   ];
   
   const projects = [
@@ -262,4 +226,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, projects };
