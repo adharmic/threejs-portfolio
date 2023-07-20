@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -28,9 +28,9 @@ import comcast from "./company/comcast.png";
 import prohashing from "./company/prohashing.png";
 import sbu from "./company/sbu.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import redistricting from "./redistricting.png";
+import hellsfury from "./hells_fury.png";
+import duckgame from "./duckgame.png";
 
 export {
   logo,
@@ -57,8 +57,8 @@ export {
   comcast,
   prohashing,
   sbu,
-  carrent,
-  jobit,
-  tripguide,
-  resume
+  resume,
+  redistricting,
+  hellsfury,
+  duckgame
 };

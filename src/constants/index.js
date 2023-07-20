@@ -18,11 +18,11 @@ import {
     comcast,
     prohashing,
     sbu,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    resume
+    resume,
+    redistricting,
+    hellsfury,
+    duckgame
   } from "../assets";
   
   export const navLinks = [
@@ -119,19 +119,19 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "BSE, Computer Science",
-      company_name: "Stony Brook University",
-      icon: sbu,
-      iconBg: "#E6DEDD",
-      date: "August 2018 - May 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "BSE, Computer Science",
+    //   company_name: "Stony Brook University",
+    //   icon: sbu,
+    //   iconBg: "#E6DEDD",
+    //   date: "August 2018 - May 2022",
+    //   points: [
+    //     "Learned many valuable skills related to the fundamentals of computer science.",
+    //     "Created multiple intensive projects with team members.",
+    //     ".",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
     {
       title: "Backend Engineer",
       company_name: "Prohashing",
@@ -139,10 +139,9 @@ import {
       iconBg: "#E6DEDD",
       date: "January 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tasked with regular maintenance and upgrades of servers/databases using Twisted and other python libraries, including monitoring of these systems with Prometheus/Grafana.",
+        "Implemented several mining algorithms in Python, creating and working with dozens of APIs to ensure proper communication between systems, including custom-built WAMP software.",
+        "Wrote extensive documentation of implemented systems and features."
       ],
     },
     {
@@ -152,77 +151,77 @@ import {
       iconBg: "#383E56",
       date: "January 2023 - Current",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing/mainting applications with React front-end, Spring Boot back-end, mySQL database.",
+        "Main project: connector tool meant to make server inventory management simple via web/mobile app.",
+        "Jenkins and CI/CD pipelines for deployment of new features and bugfixes.",
+        "Penetration testing software via Burp Suite and NMAP.",
       ],
     }
   ];
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Redistricting Simulator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Full-stack simulation of potential redistricting plans using real data to generate thousands of iterations of possible plans for three states.",
       tags: [
         {
-          name: "react",
+          name: "vanillajs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MySQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Spring Boot",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: redistricting,
+      source_code_link: "https://github.com/adithyajith925/cse-416-front-end",
     },
     {
-      name: "Job IT",
+      name: "Hell's Fury",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Pixel art web game coded entirely in typescript on a homemade game engine. Dungeon-crawler levels with unique enemies and bosses on each floor.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "aseprite",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "firebase",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: hellsfury,
+      source_code_link: "https://github.com/Ed-joe/Hells-Fury",
     },
     {
-      name: "Trip Guide",
+      name: "Untitled Duck Game",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "An in-progress Unity turn-based RPG about rubber ducks and their adventures.",
       tags: [
         {
-          name: "nextjs",
+          name: "Unity",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "C#",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Blender",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: duckgame,
+      source_code_link: "https://github.com/adithyajith925/Untitled-Duck-Game",
     },
   ];
   
